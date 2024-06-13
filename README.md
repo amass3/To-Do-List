@@ -1,2 +1,3 @@
 # To-Do List
-![](https://github.com/amass3/To-Do-List/blob/main/SVG/Github CI-passing.svg)
+[![badge_title](https://vsmarketplacebadges.dev/badge_title/publishername.extensionname.svg)](https://marketplace.visualstudio.com/items?itemName=publishername.extensionname)
+
