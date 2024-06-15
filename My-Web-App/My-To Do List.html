@@ -1,23 +1,32 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My To-Do List</title>
-    <link rel="stylesheet" href="My-To Do List.css">
-</head>
-    <body data-new-gr-c-s-check-loaded="14.1072.0" data-gr-ext-installed="">
-    
-    <div id="myDIV" class="header">
-      <h2 style="margin:5px">My To Do List</h2>
-      <input type="text" id="myInput" placeholder="Title...">
-      <span onclick="newElement()" class="addBtn">Add</span>
-    </div>
-    
-    <ul id="myUL">
-    
-    <li class="checked" style="display: none;"><span class="close">×</span></li></ul>
+    <head>
 
-    <script src="My-To Do List.js"></script>
+        <title>My To-Do List</title>
+
+        <!-- links to CSS page -->
+     <link rel="stylesheet" href="My-To Do List.css">
+    </head>
+    <body>
     
-    </body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
+        <div id="myDIV" class="header">
+            <!-- Web application title-->
+        <h2>To Do</h2>
+        <!-- The input bar to add an item to the to-do list -->
+        <input type="text" id="myInput" placeholder="Remind me to...">
+        <!-- Add the item by clicking on the "Add" button -->
+        <span onclick="newElement()" class="addBtn">Add</span>
+        </div>
+    
+        <!-- The unordered list of items completed and uncompleted-->
+        <ul id="myUL">
+            <li class="checked" style="display: none;"><span class="close">×</span>
+            </li>
+        </ul>
+
+        <!-- links Javascript page -->
+        <script src="My-To Do List.js"></script>
+
+    </body>
+
     </html>
