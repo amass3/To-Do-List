@@ -6,5 +6,5 @@ Use the files in My-Web-App to Create a "to-do list" to organize and prioritize 
 
 Below is a sample of the application:
 
-![Sample](URL)
+![Sample](https://github.com/amass3/To-Do-List/blob/main/My-Web-App%20Images/Sample.png)
 
