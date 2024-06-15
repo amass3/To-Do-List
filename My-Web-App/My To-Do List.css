@@ -71,10 +71,11 @@
   
   /* Style the header */
   .header {
-    background-color: #f44336;
+    background-color: #f1d11c;
     padding: 30px 40px;
     color: white;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   /* Clear floats after the header */
@@ -88,27 +89,28 @@
   input {
     margin: 0;
     border: none;
-    border-radius: 0;
+    border-radius: 12px;
     width: 75%;
     padding: 10px;
-    float: left;
+    float: center;
     font-size: 16px;
   }
+
   
   /* Style the "Add" button */
   .addBtn {
     padding: 10px;
-    width: 25%;
-    background: #d9d9d9;
-    color: #555;
-    float: left;
+    width: 10%;
+    background: #f79452;
+    color: hsl(24, 17%, 24%);
+    float: center;
     text-align: center;
     font-size: 16px;
     cursor: pointer;
     transition: 0.3s;
-    border-radius: 0;
+    border-radius: 12px;
   }
   
   .addBtn:hover {
-    background-color: #bbb;
+    background-color: #f56c10;
   }
